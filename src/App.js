@@ -104,7 +104,7 @@ function App() {
   };
 
   const calculate = async () => {
-    const res = await axios.post('http://localhost:5000/api/calculate', {
+    const res = await axios.post('https://sea-freight-calculator-backend-13qw.onrender.com/api/calculate', {
       container,
       items,
     });
