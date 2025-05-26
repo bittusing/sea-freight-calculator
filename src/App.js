@@ -177,7 +177,7 @@ function App() {
       <h2 className="text-xl mb-4">3D Visualization</h2>
       {/* <ThreeDVisualizer container={container} items={items} /> */}
       {result && (
-  <>
+  <> 
     <div className="mt-6 p-4 bg-gray-800 rounded">
       {/* Summary content */}
     </div>
